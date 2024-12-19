@@ -1,15 +1,13 @@
-import React from 'react';
-import './CourseCard.css';
+import React from 'react'
 
-const CourseCard = ({ title, description, price }) => {
+function CourseCard({ title, description }) {
   return (
-    <div className="card">
-      <h3 className="cardTitle">{title}</h3>
-      <p className="cardText">{description}</p>
-      <p className="cardPrice">{price}</p>
-      <button className="button">Comprar</button>
+    <div className="course-card">
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <button>Saiba mais</button>
     </div>
-  );
-};
+  )
+}
 
-export default CourseCard;
+export default CourseCard
