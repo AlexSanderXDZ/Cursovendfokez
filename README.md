@@ -1,8 +1,25 @@
-# React + Vite
+# Landing Page para Venda de Cursos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do Projeto
+Esta é uma landing page desenvolvida em React para auxiliar o cliente na venda de cursos online. O objetivo é criar uma experiência visualmente atraente e intuitiva, onde os visitantes podem aprender sobre os cursos, conhecer mais sobre o negócio e realizar a inscrição.
 
-Currently, two official plugins are available:
+## Estrutura de Diretórios
+A estrutura do projeto foi organizada para garantir manutenção e escalabilidade:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Principais Recursos
+### Cabeçalho (Header)
+- Menu de navegação com links para “Sobre”, “Serviços” e “Contato”.
+- Botão “Acesse Agora” para chamar à ação.
+- Design responsivo, com adaptação para dispositivos menores.
+
+### Rodapé (Footer)
+- Informativo de direitos autorais.
+- Links para “Política de Privacidade” e “Termos de Uso”.
+- Estilização limpa e profissional.
+
+## Tecnologias Utilizadas
+- **React**: Biblioteca JavaScript para criação de interfaces dinâmicas.
+- **CSS**: Estilização responsiva e moderna.
+- **Vite**: Ferramenta para desenvolvimento rápido e eficiente.
+
