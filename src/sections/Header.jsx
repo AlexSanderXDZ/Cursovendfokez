@@ -5,7 +5,8 @@ function Header() {
   return (
     <header className="header">
     <div className="container">
-      <div className="logo">CondoView</div>
+      <div className="logo">Cursinho do fokez
+      </div>
       <nav className="navbar">
         <ul className="nav-links">
           <li><a href="#about">Sobre</a></li>
