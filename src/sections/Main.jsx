@@ -1,4 +1,6 @@
 import React from 'react'
+import '../styles/Main.css';
+import Slider from "react-slick";
 
 function Main() {
   return (

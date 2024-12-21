@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/CourseCard.css';
 
 function CourseCard({ title, description }) {
   return (
