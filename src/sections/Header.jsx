@@ -3,20 +3,16 @@ import '../styles/Header.css';
 
 function Header() {
   return (
-    <header className="header">
-    <div className="container">
-      <div className="logo">Cursinho do fokez
-      </div>
-      <nav className="navbar">
-        <ul className="nav-links">
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
+    <header>
+      <h2 className="logo">logo</h2>
+      <nav className="navege">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contato</a>
+        <button className="btnloginpop">Logar</button>
       </nav>
-      <button className="cta-button">Acesse Agora</button>
-    </div>
-  </header>
+    </header>
   )
 }
 
